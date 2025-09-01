@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-sserif;
     margin: 0;
     padding: 0;
+    background-color: #f7fcfa;
 }
 
 #main-header {
-    background-color: #333;
-    color: white;
+    color: #333333;
     padding: 1rem;
 }
 
@@ -18,7 +18,7 @@ body {
 
 .nav-links {
     text-decoration: none;
-    color: white;
+    color: #333333;
 }
 
 section {
@@ -34,12 +34,38 @@ h1, h2 {
 
 p {
     line-height: 1.6;
-    color: #444;
+    color: #333333;
 }
 
 footer {
     text-align: center;
     padding: 1rem;
-    color: white;
-    background-color: #333;
+    color: #333333;
+}
+
+.about-us {
+    color: #333333;
+}
+
+.about-us:hover {
+    color: #005355;
+    transform: scale(1.05);
+}
+
+.projects {
+    color: #333333;
+}
+
+#projects:hover {
+    color: #005355;
+    transform: scale(1.05);
+}
+
+.contact:hover {
+    color: #005355;
+    transform: scale(1.05);
+}
+
+html {
+    scroll-behavior: smooth;
 }
